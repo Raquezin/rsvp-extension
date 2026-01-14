@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "RSVP Extension",
+  "version": "1.0",
+  "description": "Fast reading application using RSVP",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.svg"
+  }
+}

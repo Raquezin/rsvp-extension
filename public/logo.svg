@@ -1,0 +1,26 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#3b82f6"/>
+  
+  <!-- Eye shape -->
+  <path d="M30 100 C50 70, 70 70, 100 70 C130 70, 150 70, 170 100 C150 130, 130 130, 100 130 C70 130, 50 130, 30 100" fill="#ffffff"/>
+  
+  <!-- Pupil (represents the word/pivot point) -->
+  <circle cx="100" cy="100" r="25" fill="#3b82f6"/>
+  
+  <!-- Pivot point highlight -->
+  <circle cx="100" cy="100" r="8" fill="#ef4444"/>
+  
+  <!-- Speed lines on the left -->
+  <line x1="20" y1="80" x2="10" y2="80" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  <line x1="20" y1="100" x2="5" y2="100" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  <line x1="20" y1="120" x2="10" y2="120" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Speed lines on the right -->
+  <line x1="180" y1="80" x2="190" y2="80" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  <line x1="180" y1="100" x2="195" y2="100" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  <line x1="180" y1="120" x2="190" y2="120" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- "R" letter at bottom to represent RSVP -->
+  <text x="100" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="36" fill="#ffffff">R</text>
+</svg>
