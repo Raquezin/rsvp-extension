@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "RSVP Extension",
-  "version": "1.0",
-  "description": "Fast reading application using RSVP",
+  "name": "SpeedReader",
+  "version": "1.0.0",
+  "description": "Read any webpage up to 10x faster with RSVP (Rapid Serial Visual Presentation) technology",
   "permissions": ["activeTab", "storage", "scripting"],
   "action": {},
   "background": {
     "service_worker": "background.js"
   },
   "icons": {
-    "128": "icon.svg"
+    "128": "128.png"
   }
 }
